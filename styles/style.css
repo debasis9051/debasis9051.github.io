@@ -58,7 +58,7 @@ body{
    
 }
 input{
-    border: none;
+    border-color: rebeccapurple; 
     height: 80px;
     padding-top: 20px;
     
@@ -115,7 +115,19 @@ input{
         width: 120px; */
         height: 80px;
         width: 100px;
+        border-color: rebeccapurple; 
 
+        
+    }
+
+    .container{
+        
+        margin: auto;
+        width: 60%;
+        height: 90%;
+        padding: 0px;
+        margin-top:190px;
+        box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
         
     }
     
