@@ -58,7 +58,7 @@ body{
    
 }
 input{
-    border-color: rebeccapurple; 
+    border: none;
     height: 80px;
     padding-top: 20px;
     
@@ -73,6 +73,16 @@ input{
         padding-top: 20px;
         
     }
+    .container{
+        
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px;
+        margin-top:190px;
+        box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
+        
+    }
   }
 
 
@@ -85,6 +95,16 @@ input{
         padding-top: 10px;
        
     }
+    .container{
+        
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px;
+        margin-top:190px;
+        box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
+        
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -94,6 +114,16 @@ input{
         margin-left: 0px;
         padding-top: 10px;
        
+    }
+    .container{
+        
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px;
+        margin-top:190px;
+        box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
+        
     }
    }
 
@@ -123,7 +153,7 @@ input{
     .container{
         
         margin: auto;
-        width: 60%;
+        width: 50%;
         height: 90%;
         padding: 0px;
         margin-top:190px;
@@ -135,5 +165,14 @@ input{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    
+    .container{
+        
+        margin: auto;
+        width: 50%;
+        height: 90%;
+        padding: 0px;
+        margin-top:190px;
+        box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
+        
+    }
     }
