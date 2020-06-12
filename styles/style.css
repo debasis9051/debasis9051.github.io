@@ -1,0 +1,103 @@
+body{
+    background-color: #1E2326;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+  }
+.container{
+    background-color: white;
+    text-align: center;
+    margin: auto;
+    width: 23%;
+    height: 60%;
+    padding: 0px;
+    margin-top:190px;
+    box-shadow: -7px 17px 31px 17px rgba(0,0,0,0.75);
+    
+}
+
+.numpad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.btn-secondary1{
+    background-color: #1E2326;
+    color : rgb(255, 255, 255);
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+
+
+}
+.btn-info1{
+    background-color: #5E4BB6 ;
+    color : rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.btn-warning1{
+    background-color: #FEC208 ;
+    color : rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.display{
+    
+    padding:30px ;
+   margin :50;
+   text-align: right;
+    padding-top: 10px;
+   
+}
+input{
+    /* border: none; */
+    height: 80px;
+    padding-top: 20px;
+    
+}
+
+@media only screen and (max-width: 768px) {
+  
+    input{
+        border: none;
+        height: 80px;
+        width: 120px;
+        padding-top: 20px;
+        
+    }
+  }
+
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    .display{
+        padding:10px ;
+        margin-left: 0px;
+        padding-top: 10px;
+       
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .display{
+        padding:10px ;
+        margin-left: 0px;
+        padding-top: 10px;
+       
+    }
+   }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+    }
