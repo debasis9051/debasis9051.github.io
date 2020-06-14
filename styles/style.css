@@ -61,6 +61,7 @@ input{
     border: none;
     height: 80px;
     padding-top: 20px;
+    font-family: 'Balsamiq Sans', cursive;
     
 }
 
@@ -71,6 +72,8 @@ input{
         height: 80px;
         width: 120px;
         padding-top: 20px;
+        font-size: 25px;
+        text-align: right;
         /* background-color: black; */
         
         
@@ -101,6 +104,10 @@ input{
         padding-top: 10px;
        
        
+    }
+    input{
+        font-size: 29px;
+        text-align: right;
     }
     .container{
         
